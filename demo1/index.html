@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery整体架构-核心功能函数</title>
+
+</head>
+
+<body>
+    <script src="./jQuery.1.0.1.js"></script>
+    <script>
+        var list1 = {
+            list: {
+                aq: 1
+            }
+        }
+
+        var list2 = {
+            list: {
+                bm: 2
+            }
+        }
+
+        var obj = $.extend(true, list1, list2);
+        
+        console.log(obj)
+    </script>
+</body>
+
+</html>
